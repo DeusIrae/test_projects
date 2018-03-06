@@ -17,7 +17,7 @@ class Example(QMainWindow):
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
         exitAction.triggered.connect(qApp.quit)
-        self.statusBar().showMessage('You choose menu')
+        self.statusBar().showMessage('You choose menu!')
         menubar = self.menuBar()
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(exitAction)
